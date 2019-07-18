@@ -87,17 +87,10 @@ function myFunction() {
   </section>
   <!--================ Banner SM Section end =================-->
 <a id="nabblelink" href="http://valentinetank.158793.n8.nabble.com/">ValentineTank</a>
-<script src="http://valentinetank.158793.n8.nabble.com/embed/f1"></script>
-        var link=document.getElementById("nabblelink");
-if (link != null) {
-	link.style.display="none";
-	document.write("<div id='nabbleforum' style='width:100%'><div style='height:700px'><img src='http://valentinetank.158793.n8.nabble.com/images/loading.png' width='94' height='33' alt='Loading...'></div></div>");
-	var e = document.createElement("script");
-	e.src = 'http://valentinetank.158793.n8.nabble.com/embed/JsEmbed.jtp?site=158793&node=1&url=' + encodeURIComponent(location.href);
-            e.type="text/javascript";
-	document.getElementsByTagName("head")[0].appendChild(e);
-}
-
+<script src="http://valentinetank.158793.n8.nabble.com"></script>
+<f:function name="Composite.Community.Forum.Nabble" xmlns:f="http://valentinetank.158793.n8.nabble.com"> 
+  <f:param name="EmbedCode" value="&lt;a id=&quot;nabblelink&quot; href=&quot;http://valentinetank.158793.n8.nabble.com/&quot;&gt;Orckestra CMS&lt;/a&gt; &lt;script src=&quot;http://valentinetank.158793.n8.nabble.com&quot;&gt;&lt;/script&gt;" /> 
+</f:function>
   <!-- ================ start footer Area ================= -->
   <footer class="footer-area section-gap">
 		<div class="container">
